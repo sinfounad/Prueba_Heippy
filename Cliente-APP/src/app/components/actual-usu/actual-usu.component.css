@@ -1,0 +1,29 @@
+.contenedor{
+
+    background-color: rgb(221, 207, 207);
+    padding: 10px;
+    margin: 50px;
+    
+
+}
+.encabezado{
+
+    height:40px;
+    background-color: rgb(49, 46, 46);
+    color: rgb(214, 211, 199);
+
+}
+
+.contenedorItems {
+  margin: 10%;
+  background-color: deepskyblue;
+
+}
+.Items{
+
+    background-color: white;
+    margin-top:30px;
+    font-size:30px;
+    padding:40px;
+    border-radius:12px;
+}

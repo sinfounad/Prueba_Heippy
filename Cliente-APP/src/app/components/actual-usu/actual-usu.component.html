@@ -1,0 +1,35 @@
+<div class="contenedor" *ngIf="contacto">
+    <li>{{contacto.nombre}}</li>
+    <div class="encabezado"><h2>Actualizar Contacto</h2></div>
+    <form [formGroup]="formulario" (submit)="validarValores($event, contacto)">
+        <div *ngIf="contacto">
+        <label>Numero Identificacion</label><br>
+        <input type="text" [(ngModel)]="contacto.documento"  name="Documento" formControlName="input1"><br>
+        <label>Nombre Completo</label><br>
+        <input type="text" [(ngModel)]="contacto.nombre"   name="Documento" formControlName="input2" ><br>
+        <label>Celular</label><br>
+        <input type="text" [(ngModel)]="contacto.celular"  name="Documento" formControlName="input3" ><br>
+        <label>Direccion</label><br>
+        <input type="text" [(ngModel)]="contacto.direccion" name="Documento" formControlName="input4"><br>
+        <label>Fecha de cumpleaños</label><br>
+        
+        <div class="Cpicker">
+      
+            <input style="display: inline; " class="Pinput" name="Documento" [(ngModel)]="contacto.cumple" formControlName="input5">
+            
+              
+         
+          
+          
+            </div>
+         
+        <br>
+        <br>
+        <div *ngIf="condicion">Debes diligenciar todos los campos</div>
+        <button type="submit">Guardar</button>
+        <button>Cancelar</button>
+        
+
+    </div>    
+    </form>
+    </div>

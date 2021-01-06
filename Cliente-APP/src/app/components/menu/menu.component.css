@@ -1,0 +1,54 @@
+.encabezado{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right:60px;
+    width:95%;
+    background-color:cyan;
+    
+    position: relative;
+    height:250px;
+    border-width:30px;
+    border-radius: 20px;
+    margin-bottom:80px;
+}
+nav{
+background-color: black;
+color: darkgoldenrod;
+position: absolute;
+margin-top: 0px;
+height:50px;
+font-size: 30px;
+padding-right:20px;
+}
+h1{
+
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:bisque;
+}
+
+li{
+
+    display:inline-block;
+    margin-left: 30px;
+}
+.sesion{
+    margin-right:5%;
+    float: right;;
+    color:rgb(80, 126, 226);
+    
+}
+
+
+.Admin{
+
+    display:inline-block;
+    background-color: rgb(23, 23, 24);
+    margin-left: 8px;
+    padding-right:5px;
+    height:50px;
+}
+.Hola{
+
+  display:none;
+}
+

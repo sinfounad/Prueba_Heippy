@@ -1,0 +1,96 @@
+.principal{
+
+
+    background-color: burlywood;
+    margin-top:250px;
+    margin:200px;
+    width:400px;
+    height:500px;
+}
+li{
+
+    list-style: none;
+    background-color:aquamarine;
+}
+
+/* clases prueba*/
+
+.contenedor{
+
+    background-color: rgb(221, 207, 207);
+    padding: 10px;
+    margin: 50px;
+    
+
+}
+.encabezado{
+
+    height:40px;
+    background-color: rgb(150, 147, 145);
+
+}
+
+.contenedorItems {
+  margin: 10%;
+  background-color: rgb(131, 141, 145);
+  padding:20px;
+ margin-top:30px;
+
+}
+.Items{
+
+    background-color: white;
+    padding:40px;
+    margin-top: 20px;
+    padding-left:32%;
+    
+    font-size:30px;
+   
+    border-radius:12px;
+
+}
+
+h1{
+
+font-size: 56px;
+}
+
+form{
+
+    
+    margin: 12% 30%;
+    background-color: rgb(33, 34, 32);
+    padding: 10%;
+}
+label{
+
+    
+    height:40px;
+   
+}
+input{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:30px;
+    width: 260px;
+}
+
+.ContactosI{
+
+    background-color: white;
+    margin-top:30px;
+    font-size:14px;
+    padding:20px;
+    display:flex;
+    border-radius:12px;
+}
+
+
+.ContactosI > div{
+
+
+    padding:4px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,128 @@
+.Factura{
+
+    margin-top:100px ;
+    background-color: rgb(236, 228, 236);
+    width:90%;
+    border-radius: 12px;
+    padding-top:180px;
+    padding:22px;
+    margin-left: 60px;;
+}
+
+.Dlabel{
+    margin-top:10px;
+    width: 20%;
+    margin-right: 12%;
+
+}
+
+.Dinput{
+    margin-top:20px;
+    width: 20%;
+    margin-right: 12%;
+}
+
+
+.Pinput{
+
+    margin-right:5px;
+    width: 20%;
+}
+.Dbutton{
+
+    background-color: rgb(33, 119, 233);
+    width:20%;
+    height:45px;
+    margin-left: 19px;;
+    border-radius: 8px;
+}
+
+
+.Cpicker{
+
+
+    margin-right:90px;
+    display: inline;
+}
+    
+.Membrete{
+
+    display:flex;
+    width:100%;
+}
+
+.logoFact{
+
+ margin-left:600px;
+ border-radius:2px;
+ float: right;
+}
+
+.contenedor{
+
+    background-color: rgb(221, 207, 207);
+    padding: 10px;
+    margin: 50px;
+    
+
+}
+.encabezado{
+
+    height:40px;
+    background-color: rgb(49, 46, 46);
+    color: rgb(214, 211, 199);
+
+}
+
+.contenedorItems {
+  margin: 10%;
+  background-color: deepskyblue;
+
+}
+.Items{
+
+    background-color: white;
+    margin-top:30px;
+    font-size:30px;
+    padding:40px;
+    border-radius:12px;
+}
+/*
+form{
+
+    
+    margin: 12% 30%;
+    background-color: rgb(33, 34, 32);
+    padding: 10%;
+}
+label{
+
+    
+    height:40px;
+   
+}
+input{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:30px;
+    width: 260px;
+}
+
+.ContactosI{
+
+    background-color: white;
+    margin-top:30px;
+    font-size:14px;
+    padding:20px;
+    display:flex;
+    border-radius:12px;
+}
+
+
+.ContactosI > div{
+
+
+    padding:4px;
+    margin-left: 30px;
+}*/

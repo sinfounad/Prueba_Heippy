@@ -1,0 +1,28 @@
+
+  <div class="contenedor">
+
+    <div class="encabezado"><h3>Juancho Contacts</h3></div>
+    <br>
+    
+    <div class="LogoBig"><img src="../../../assets/Imagenes/home.png" width="50px" heigth="50px" routerLink="/principal"></div>
+    <div class="contenedorItems" *ngFor= "let contacto of facts">
+    <div class="ContactosI">
+        <div>  <img src="../../../assets/Imagenes/user.jpg" width="30px" heigth="30px"> </div>
+        <div style="width:65%">
+            
+            <div>{{contacto.nombre}}</div>
+            <div>{{contacto.documento}}</div>
+            <div>{{contacto.celular}}</div>
+            <div>{{contacto.direccion}}</div>
+            <div>{{contacto.cumple}}</div>
+        
+        </div>
+        <div><img src="../../../assets/Imagenes/update.png" width="35px" heigth="35px" (click)="Actualiza(contacto)"> </div>
+        <div><img src="../../../assets/Imagenes/re.png" width="30px" heigth="30px" (click)="deleteFact(contacto)"></div>
+
+      
+        </div>
+    
+
+</div>
+</div>

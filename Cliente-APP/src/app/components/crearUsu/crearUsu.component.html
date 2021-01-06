@@ -1,0 +1,39 @@
+
+
+
+  <div class="contenedor">
+
+    <div class="encabezado"><h2>Crear Contacto</h2></div>
+    <form [formGroup]="formulario" (submit)="validarValores($event)">
+      
+        <label>Numero Identificacion</label><br>
+        <input type="text" class="Pinput"  name="Numero" [(ngModel)]="Numero" formControlName="input1"><br>
+        <label>Nombre Completo</label><br>
+        <input type="text" class="Pinput"  name="Nombre" [(ngModel)]="Nombre" formControlName="input2"><br>
+        <label>Celular</label><br>
+        <input type="text" class="Pinput"  name="Celular" [(ngModel)]="Celular" formControlName="input3"><br>
+        <label>Direccion</label><br>
+        <input type="text" class="Pinput"  name="Direccion" [(ngModel)]="Direccion" formControlName="input4"><br>
+        <label>Fecha de cumpleaños</label><br>
+        <div class="Cpicker">
+      
+        <input matInput [matDatepicker]="picker2" style="display: inline; " class="Pinput" name="Cumple" [(ngModel)]="Cumple" formControlName="input5">
+        
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+     
+      
+      
+        </div>
+        <mat-datepicker #picker2></mat-datepicker>
+        <br>
+        <br>
+        <div *ngIf="condicion">Debes diligenciar todos los campos</div>
+        <ng-template [ngIf]="condicion"><div>este</div></ng-template>
+        <button type="submit" click= "createTask()" >Guardar</button>
+        <button>Cancelar</button>
+
+
+    </form>
+    </div>
+    
+

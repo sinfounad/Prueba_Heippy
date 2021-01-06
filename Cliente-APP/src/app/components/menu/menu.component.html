@@ -1,0 +1,55 @@
+
+
+<a class="sesion">Registrate</a>
+<div *ngIf="this.menuAdmin; else elseBlock"><div (click)="Salir()" class="sesion">Logout</div></div>
+<ng-template #elseBlock ><a class="sesion" routerLink="/login">Login</a></ng-template>
+
+ 
+
+
+<div class="encabezado" id="encabezado" >
+
+  <div *ngIf="valido" >
+  
+        <nav>
+          
+            <ul>
+                <li>
+    
+                    <h1>Hotel Tijuana</h1>
+                </li>
+                <li>
+                  <a routerLink=''>Inicio</a>
+                </li>
+        
+                <li>
+                  <a routerLink="/crear">Crear</a>
+                </li>
+                
+                <li> 
+                  <a routerLink="/Contactos">Mis contactos</a>
+                </li>
+                <div class="Admin" *ngIf='this.menuAdmin'>
+                <li>
+                  <a routerLink="/Actualizar">Consul</a>
+                </li>
+    
+                <li>
+                  <a routerLink="/crear">Usuarios</a>
+                </li>
+              </div>
+              </ul>
+          </nav>
+    
+      
+        
+    
+      <img src= "../../../assets/Imagenes/piscina.jpg" width="100%" height="320px"> 
+      <br>
+      <br>
+     <hr>
+    </div>
+
+</div>
+
+
